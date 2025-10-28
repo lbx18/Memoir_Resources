@@ -6,7 +6,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/mdadm --monitor --scan  --mail=TON_ADDRESSE_MAIL --program=/usr/local/mdadm-custom-notify.sh
+ExecStart=/usr/bin/mdadm --monitor --scan  --mail=YOUR_MAIL_ADDRESS --program=/usr/local/mdadm-custom-notify.sh
 Restart=always
 RestartSec=15
 killMode=mixed
